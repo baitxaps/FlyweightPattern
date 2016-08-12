@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		770639E81D5D71AF0037A415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639E71D5D71AF0037A415 /* main.m */; };
+		770639F21D5D7AA70037A415 /* SignInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639F11D5D7AA70037A415 /* SignInfo.m */; };
+		770639F51D5D7B1D0037A415 /* SignInfoFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639F41D5D7B1D0037A415 /* SignInfoFactory.m */; };
+		770639F81D5D7BD10037A415 /* SignInfo4Pool.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639F71D5D7BD10037A415 /* SignInfo4Pool.m */; };
+		770639FC1D5DAFF90037A415 /* Flyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639FB1D5DAFF90037A415 /* Flyweight.m */; };
+		770639FF1D5DB0FA0037A415 /* ConcreteFlyweight1.m in Sources */ = {isa = PBXBuildFile; fileRef = 770639FE1D5DB0FA0037A415 /* ConcreteFlyweight1.m */; };
+		77063A021D5DB1BD0037A415 /* ConcreteFlyweight2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A011D5DB1BD0037A415 /* ConcreteFlyweight2.m */; };
+		77063A051D5DB20F0037A415 /* FlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A041D5DB20F0037A415 /* FlyweightFactory.m */; };
+		77063A0B1D5DD4EE0037A415 /* ExtrinsicState.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A0A1D5DD4EE0037A415 /* ExtrinsicState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,24 @@
 /* Begin PBXFileReference section */
 		770639E41D5D71AE0037A415 /* FlyweightPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlyweightPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		770639E71D5D71AF0037A415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		770639EE1D5D75E90037A415 /* FlyweightPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlyweightPattern001.png; sourceTree = "<group>"; };
+		770639EF1D5D78120037A415 /* FlyweightPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlyweightPattern002.png; sourceTree = "<group>"; };
+		770639F01D5D7AA70037A415 /* SignInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInfo.h; sourceTree = "<group>"; };
+		770639F11D5D7AA70037A415 /* SignInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInfo.m; sourceTree = "<group>"; };
+		770639F31D5D7B1D0037A415 /* SignInfoFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInfoFactory.h; sourceTree = "<group>"; };
+		770639F41D5D7B1D0037A415 /* SignInfoFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInfoFactory.m; sourceTree = "<group>"; };
+		770639F61D5D7BD10037A415 /* SignInfo4Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInfo4Pool.h; sourceTree = "<group>"; };
+		770639F71D5D7BD10037A415 /* SignInfo4Pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInfo4Pool.m; sourceTree = "<group>"; };
+		770639FA1D5DAFF90037A415 /* Flyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flyweight.h; sourceTree = "<group>"; };
+		770639FB1D5DAFF90037A415 /* Flyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flyweight.m; sourceTree = "<group>"; };
+		770639FD1D5DB0FA0037A415 /* ConcreteFlyweight1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteFlyweight1.h; sourceTree = "<group>"; };
+		770639FE1D5DB0FA0037A415 /* ConcreteFlyweight1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteFlyweight1.m; sourceTree = "<group>"; };
+		77063A001D5DB1BD0037A415 /* ConcreteFlyweight2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteFlyweight2.h; sourceTree = "<group>"; };
+		77063A011D5DB1BD0037A415 /* ConcreteFlyweight2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteFlyweight2.m; sourceTree = "<group>"; };
+		77063A031D5DB20F0037A415 /* FlyweightFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightFactory.h; sourceTree = "<group>"; };
+		77063A041D5DB20F0037A415 /* FlyweightFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightFactory.m; sourceTree = "<group>"; };
+		77063A091D5DD4EE0037A415 /* ExtrinsicState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtrinsicState.h; sourceTree = "<group>"; };
+		77063A0A1D5DD4EE0037A415 /* ExtrinsicState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtrinsicState.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,7 @@
 		770639DB1D5D71AE0037A415 = {
 			isa = PBXGroup;
 			children = (
+				770639F91D5D8A470037A415 /* Flyweight */,
 				770639E61D5D71AE0037A415 /* FlyweightPattern */,
 				770639E51D5D71AE0037A415 /* Products */,
 			);
@@ -57,9 +84,34 @@
 		770639E61D5D71AE0037A415 /* FlyweightPattern */ = {
 			isa = PBXGroup;
 			children = (
+				770639EE1D5D75E90037A415 /* FlyweightPattern001.png */,
+				770639EF1D5D78120037A415 /* FlyweightPattern002.png */,
 				770639E71D5D71AF0037A415 /* main.m */,
+				770639F01D5D7AA70037A415 /* SignInfo.h */,
+				770639F11D5D7AA70037A415 /* SignInfo.m */,
+				770639F31D5D7B1D0037A415 /* SignInfoFactory.h */,
+				770639F41D5D7B1D0037A415 /* SignInfoFactory.m */,
+				770639F61D5D7BD10037A415 /* SignInfo4Pool.h */,
+				770639F71D5D7BD10037A415 /* SignInfo4Pool.m */,
+				77063A091D5DD4EE0037A415 /* ExtrinsicState.h */,
+				77063A0A1D5DD4EE0037A415 /* ExtrinsicState.m */,
 			);
 			path = FlyweightPattern;
+			sourceTree = "<group>";
+		};
+		770639F91D5D8A470037A415 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				770639FA1D5DAFF90037A415 /* Flyweight.h */,
+				770639FB1D5DAFF90037A415 /* Flyweight.m */,
+				770639FD1D5DB0FA0037A415 /* ConcreteFlyweight1.h */,
+				770639FE1D5DB0FA0037A415 /* ConcreteFlyweight1.m */,
+				77063A001D5DB1BD0037A415 /* ConcreteFlyweight2.h */,
+				77063A011D5DB1BD0037A415 /* ConcreteFlyweight2.m */,
+				77063A031D5DB20F0037A415 /* FlyweightFactory.h */,
+				77063A041D5DB20F0037A415 /* FlyweightFactory.m */,
+			);
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77063A051D5DB20F0037A415 /* FlyweightFactory.m in Sources */,
+				77063A021D5DB1BD0037A415 /* ConcreteFlyweight2.m in Sources */,
+				770639FC1D5DAFF90037A415 /* Flyweight.m in Sources */,
+				770639F21D5D7AA70037A415 /* SignInfo.m in Sources */,
+				770639F81D5D7BD10037A415 /* SignInfo4Pool.m in Sources */,
+				770639F51D5D7B1D0037A415 /* SignInfoFactory.m in Sources */,
+				770639FF1D5DB0FA0037A415 /* ConcreteFlyweight1.m in Sources */,
 				770639E81D5D71AF0037A415 /* main.m in Sources */,
+				77063A0B1D5DD4EE0037A415 /* ExtrinsicState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
